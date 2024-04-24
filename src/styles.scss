@@ -1,0 +1,34 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+.newsContainer {
+    max-width: 80%;
+    display: flex;
+    padding-left: 20px;
+    align-content: center;
+}
+
+li {
+    min-height: min-content;
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+}
+.feedContainer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+span {
+    margin-right: 10px;
+}
+
+.hideBtn {
+    display: none;
+}
+
+.showBtn {
+    display: block;
+}
